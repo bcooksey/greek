@@ -1,0 +1,26 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <style>
+            /* CSS Here */
+            p {
+                color: grey;
+            }
+        </style>
+    </head>
+    <body>
+       <h1>Welcome to my Site!</h1>
+       <p>Thanks for visiting. As you can see, there
+       isn't much to do around here right now,
+       but we are working on it!
+       </p>
+       <button>Turn out the lights</button>
+       <script>
+           // JavaScript Here
+           var button = document.getElementsByTagName('button')[0];
+           button.onclick = function() {
+               document.body.style.backgroundColor = "black";
+           };
+       </script>
+    </body>
+</html>
