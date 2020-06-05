@@ -2,9 +2,10 @@
 layout: default 
 ---
 
-## I can put some markdown here
+<script src="{{ base.url | prepend: site.url }}/main.js"></script>
 
-<h1>Greek Primer (3rd Edition) Flashcards</h1>
+# Greek Primer (3rd Edition) Flashcards
+
 <p>Welcome to a flashcard game for studying ancient Greek words. Pick a chapter and hit start.
 </p>
 <label>Chapter</label>
