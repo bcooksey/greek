@@ -2,7 +2,7 @@
 layout: default 
 ---
 
-<script src="{{ base.url | prepend: site.url }}/main.js"></script>
+<script type="text/javascript" charset="UTF-8" src="./main.js"></script>
 
 # Greek Primer (3rd Edition) Flashcards
 
