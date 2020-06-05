@@ -1,10 +1,33 @@
 ---
 layout: default 
+title: Greek Primer (3rd Edition) Flashcards
 ---
 
 <script type="text/javascript" charset="UTF-8" src="./main.js"></script>
 
-# Greek Primer (3rd Edition) Flashcards
+<style>
+    #card {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        width: 35%;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    #card .answer {
+        display: none;
+    }
+
+    .controls {
+        width: 35%;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+</style>
 
 <p>Welcome to a flashcard game for studying ancient Greek words. Pick a chapter and hit start.
 </p>
