@@ -84,7 +84,8 @@ window.onload = () => {
   const startBttn = document.getElementById('start');
   startBttn.onclick = (event) => {
     const vocabSelection = document.getElementById('chapterSelect').value;
-    const availableVocab = vocabSelection === '0' ? VOCAB : VOCAB.filter((word) => word.chap === vocabSelection);
+    const includePrior = document.getElementById('includePrior').checked;
+    const availableVocab = vocabSelection === '0' ? VOCAB : VOCAB.filter((word) => word.chap === vocabSelection || (includePrior && parseInt(word.chap) < parseInt(vocabSelection)));
 
     initializeGame(availableVocab);
     revealBttn.disabled = false;
