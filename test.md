@@ -1,6 +1,8 @@
 ---
-layout: post
+layout: default 
 ---
+
+## I can put some markdown here
 
 <h1>Greek Primer (3rd Edition) Flashcards</h1>
 <p>Welcome to a flashcard game for studying ancient Greek words. Pick a chapter and hit start.
