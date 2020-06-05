@@ -1,28 +1,38 @@
----
-layout: post
-title: Greek Studying Tools
----
 <!DOCTYPE html >
 <html>
     <head>
         <style>
-            /* CSS Here */
-            p {
-                color: grey;
+            #card {
+                margin: 30px;
+                padding: 10px;
+                width: 35%;
+                border: 1px solid black;
+                text-align: center;
+            }
+
+            #card .answer {
+                display: none;
             }
         </style>
+        <script type="text/javascript" charset="UTF-8" src="./main.js"></script>
     </head>
     <body>
-       <h1>Flash Cards</h1>
-       <p>Here are the cards
+       <h1>Greek Primer (3rd Edition) Flash Cards</h1>
+       <p>Welcome to a flash card game for studying ancient Greek words. Pick a chapter and hit start.
        </p>
-       <!-- <button>Turn out the lights</button> -->
-       <!-- <script> -->
-       <!--     // JavaScript Here -->
-       <!--     var button = document.getElementsByTagName('button')[0]; -->
-       <!--     button.onclick = function() { -->
-       <!--         document.body.style.backgroundColor = "black"; -->
-       <!--     }; -->
-       <!-- </script> -->
+       <label>Chapter</label>
+       <select id="chapterSelect">
+           <option value="0">All</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+       </select>
+       <button id="start">Start</button>
+       <div id="card">
+           <span class="question"></span>
+           <span class="answer"></span>
+       </div>
+       <button id="reveal" disabled="disabled">Reveal</button>
+       <button id="next" disabled="disabled">Next</button>
     </body>
 </html>
