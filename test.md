@@ -11,7 +11,7 @@ title: Greek Primer (3rd Edition) Flashcards
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
-        width: 35%;
+        width: 80%;
         border: 1px solid black;
         text-align: center;
     }
