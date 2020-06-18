@@ -43,7 +43,7 @@ const VOCAB = [
   {chap: '6', greek: 'αἰτέω', english: 'I ask for, request', type: 'verb'},
   {chap: '6', greek: 'γεννάω', english: 'I sire, beget; I give birth to', type: 'verb'},
   {chap: '6', greek: 'ἐρωτάω', english: 'I ask, question', type: 'verb'},
-  {chap: '6', greek: 'ζητέω', english: 'Iseek;Itryto', type: 'verb'},
+  {chap: '6', greek: 'ζητέω', english: 'I seek; I try to', type: 'verb'},
   {chap: '6', greek: 'καλέω', english: 'I call; I name', type: 'verb'},
   {chap: '6', greek: 'λαλέω', english: 'I talk, speak', type: 'verb'},
   {chap: '6', greek: 'πληρόω', english: 'I fulfill, complete; I fill', type: 'verb'},
@@ -51,6 +51,16 @@ const VOCAB = [
   {chap: '6', greek: 'φοβέομαι', english: 'I fear, am afraid', type: 'verb'},
   {chap: '6', greek: 'οὐ, οὐκ, οὐχ', english: 'no; not', type: 'negative'},
   {chap: '6', greek: 'οὐχί', english: 'no! (emphatic form of οὐ)', type: 'negative'},
+  {chap: '7', greek: 'ἀκολουθέω', english: 'I follow', type: 'verb'},
+  {chap: '7', greek: 'ἅπτομαι', english: 'I touch', type: 'verb'},
+  {chap: '7', greek: 'ἄρχομαι', english: 'I begin', type: 'verb'},
+  {chap: '7', greek: 'διώκω', english: 'I pursue; I persecute', type: 'verb'},
+  {chap: '7', greek: 'δοξάζω', english: 'I glorify', type: 'verb'},
+  {chap: '7', greek: 'εὐαγγελίζομαι', english: 'I preach the gospel, announce good news', type: 'verb'},
+  {chap: '7', greek: 'κηρύσσω', english: 'I announce, proclaim', type: 'verb'},
+  {chap: '7', greek: 'κόπτω', english: 'I cut', type: 'verb'},
+  {chap: '7', greek: 'πέμπω', english: 'I send', type: 'verb'},
+  {chap: '7', greek: 'πράσσω', english: 'I do', type: 'verb'},
 ];
 
 let currentGame;
