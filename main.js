@@ -132,8 +132,13 @@ window.onload = () => {
 
   const revealBttn = document.getElementById('reveal');
   revealBttn.onclick = () => {
-    question.style.display = 'none';
-    answer.style.display = 'inline';
+    if (question.style.display == 'none') {
+      question.style.display = 'inline';
+      answer.style.display = 'none';
+    } else {
+      question.style.display = 'none';
+      answer.style.display = 'inline';
+    }
   };
 
   const nextBttn = document.getElementById('next');
