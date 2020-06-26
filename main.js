@@ -64,7 +64,7 @@ const VOCAB = [
   {chap: '8', greek: 'ἀνοίγω', english: 'I open', type: 'verb', tense: '1st aorist'},
   {chap: '8', greek: 'ἀποκαλύπτω', english: 'I reveal, uncover', type: 'verb', tense: '1st aorist'},
   {chap: '8', greek: 'ἀπολύω', english: 'I release, send away; I destroy', type: 'verb', tense: '1st aorist'},
-  {chap: '8', greek: 'ἀσπάζομαι', english: 'I greeet', type: 'verb', tense: '1st aorist'},
+  {chap: '8', greek: 'ἀσπάζομαι', english: 'I greet', type: 'verb', tense: '1st aorist'},
   {chap: '8', greek: 'εἰσέρχομαι', english: 'I go into, enter', type: 'verb', tense: '1st aorist'},
   {chap: '8', greek: 'ἐκβάλλω', english: 'I throw out; I send away; I divorce', type: 'verb', tense: '1st aorist'},
   {chap: '8', greek: 'περιπατέω', english: 'I walk', type: 'verb', tense: '1st aorist'},
@@ -91,6 +91,17 @@ const VOCAB = [
   {chap: '9', greek: 'ἔλαβον', english: 'I took, received (2nd Aorist of λαμβάνω)', type: 'verb'},
   {chap: '9', greek: 'ἔπιον', english: 'I drank (2nd Aorist of πίνω)', type: 'verb'},
   {chap: '9', greek: 'ἔπεσον', english: 'I fell (2nd Aorist of πίπτω)', type: 'verb'},
+  {chap: '10', greek: 'εἰμί', english: 'I am; I exist', type: 'verb'},
+  {chap: '10', greek: 'ἀγαθός, -ή, -όν', english: 'good', type: 'adjective'},
+  {chap: '10', greek: 'ἀγαπητός, -ή, -όν', english: 'beloved, dear', type: 'adjective'},
+  {chap: '10', greek: 'ἅγιος, -α, -ον', english: 'holy; saints (pl. substantive)', type: 'adjective'},
+  {chap: '10', greek: 'δίκαιος, -α, -ον', english: 'righteous, just', type: 'adjective'},
+  {chap: '10', greek: 'ἕτερος, -α, -ον', english: 'other, another, different', type: 'adjective'},
+  {chap: '10', greek: 'κακός, -ή, -όν', english: 'bad, evil', type: 'adjective'},
+  {chap: '10', greek: 'καλός, -ή, -όν', english: 'good, excellent; beautiful, handsome', type: 'adjective'},
+  {chap: '10', greek: 'νεκρός, -ά, -όν', english: 'dead', type: 'adjective'},
+  {chap: '10', greek: 'πιστός, -ή, -όν', english: 'faithful, believing', type: 'adjective'},
+  {chap: '10', greek: 'πονηρός, -ά, -όν', english: 'evil, wicked', type: 'adjective'},
 ];
 
 let currentGame;
