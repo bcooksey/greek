@@ -11,14 +11,6 @@ const CONJUGATIONS = {
     'second-aorist-di': {stem: 'ἐγεν', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: '', suffix: ''},
 };
 
-const CONFLATION_RULES = {
-
-};
-
-const CONTRACTION_RULES = {
-
-};
-
 const setupTable = (selection, tableWrapper) => {
   let counter = 0;
   tableWrapper.querySelectorAll('.answer').forEach((answer) => {
@@ -38,14 +30,24 @@ const setupTable = (selection, tableWrapper) => {
   });
 };
 
+const resetHardCodedTable = (tableWrapper) => {
+  tableWrapper.querySelectorAll('.answer').forEach((answer) => {
+    answer.classList.add('hidden');
+  });
+}
+
 const showNext = (tableWrapper) => {
-  let nextAnswer = tableWrapper.querySelector('.singular.hidden');
+  let nextAnswer = tableWrapper.querySelector('.col1.hidden');
   if (!nextAnswer) {
-    nextAnswer = tableWrapper.querySelector('.plural.hidden');
+    nextAnswer = tableWrapper.querySelector('.hidden');
   }
   if (nextAnswer) {
     nextAnswer.classList.remove('hidden');
-  } else {
+  }
+
+  // If that was the last answer, disable controls
+  nextAnswer = tableWrapper.querySelector('.hidden');
+  if (!nextAnswer) {
     disableControls();
   }
 };
@@ -79,13 +81,29 @@ window.onload = () => {
 
   const startBttn = document.getElementById('start');
   startBttn.onclick = () => {
-    const tableWrapper = document.querySelector('.active-table');
+    const previousWrapper = document.querySelector('.active-table');
+    previousWrapper.classList.add('hidden');
+    previousWrapper.classList.remove('active-table');
+
+    let tableWrapper;
     const selectedValue = document.getElementById('typeSelect').value;
-    const selection = CONJUGATIONS[selectedValue];
+    if (selectedValue === 'prefix-conflation') {
+      tableWrapper = document.getElementById('prefix-conflation-wrapper');
+      resetHardCodedTable(tableWrapper);
+    } else if (selectedValue === 'suffix-conflation') {
+      tableWrapper = document.getElementById('suffix-conflation-wrapper');
+      resetHardCodedTable(tableWrapper);
+    } else {
+      const selection = CONJUGATIONS[selectedValue];
+      tableWrapper = document.getElementById('conjugation-wrapper');
+      setupTable(selection, tableWrapper);
+    }
 
     revealBttn.disabled = false;
     revealAllBttn.disabled = false;
-    setupTable(selection, tableWrapper);
+
+    tableWrapper.classList.add('active-table');
+    tableWrapper.classList.remove('hidden');
   };
 
 };

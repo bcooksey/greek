@@ -6,16 +6,6 @@ title: Greek Primer (3rd Edition) Verb Conjugation
 <script type="text/javascript" charset="UTF-8" src="./verbs.js"></script>
 
 <style>
-    /* #conjugation-wrapper { */
-    /*     margin-top: 20px; */
-    /*     margin-left: auto; */
-    /*     margin-right: auto; */
-    /*     padding: 10px; */
-    /*     width: 80%; */
-    /*     border: 1px solid black; */
-    /*     text-align: center; */
-    /* }  */
-
     #conjugation-wrapper th {
         text-align: start;
     }
@@ -60,19 +50,55 @@ title: Greek Primer (3rd Edition) Verb Conjugation
         <option value="second-aorist-di">2nd Aorist Deponent Indicative</option>
     </optgroup>
     <optgroup label="Other">
-        <option value="prefix">Prefix Conflation Rules</option>
-        <option value="suffix">Suffix Contraction Rules</option>
+        <option value="prefix-conflation">Prefix Conflation Rules</option>
+        <option value="suffix-conflation">Suffix Conflation Rules</option>
+        <option value="contraction">Contraction Rules</option>
     </optgroup>
 </select>
 <button id="start">Start</button>
 <div id="conjugation-wrapper" class="active-table">
     <table>
         <tr><th>Person</th><th class="variable-heading">Singular</th><th class="variable-heading">Plural</th></tr>
-        <tr><td>1st</td><td class="singular answer"></td><td class="plural answer"></td></tr>
-        <tr><td>2nd</td><td class="singular answer"></td><td class="plural answer"></td></tr>
-        <tr><td>3rd</td><td class="singular answer"></td><td class="plural answer"></td></tr>
+        <tr><td>1st</td><td class="col1 answer"></td><td class="answer"></td></tr>
+        <tr><td>2nd</td><td class="col1 answer"></td><td class="answer"></td></tr>
+        <tr><td>3rd</td><td class="col1 answer"></td><td class="answer"></td></tr>
     </table>
     <span id="note"></span>
+</div>
+<div id="prefix-conflation-wrapper" class="hidden">
+    <table>
+      <tr><th>Prefix</th><th>Becomes</th></tr>
+      <tr><td>ε + α</td><td rowspan="3" class="answer">η</td></tr>
+      <tr><td>ε + ε</td></tr>
+      <tr><td>ε + η</td></tr>
+      <tr><td>ε + ο</td><td rowspan="2" class="answer">ω</td></tr>
+      <tr><td>ε + ω</td></tr>
+      <tr><td>ε + ι</td><td class="answer">ι</td></tr>
+      <tr><td>ε + υ</td><td class="answer">υ</td></tr>
+      <tr><td>ε + αι</td><td rowspan="2" class="answer">ῃ</td></tr>
+      <tr><td>ε + ει</td></tr>
+      <tr><td>ε + αυ</td><td rowspan="2" class="answer">ηυ</td></tr>
+      <tr><td>ε + ευ</td></tr>
+      <tr><td>ε + οι</td><td class="answer">ῳ</td></tr>
+    </table>
+</div>
+<div id="suffix-conflation-wrapper" class="hidden">
+    <table>
+      <tr><th>Suffix</th><th>Becomes</th></tr>
+      <tr><td>β + σ</td><td rowspan="4" class="answer">ψ</td></tr>
+      <tr><td>π + σ</td></tr>
+      <tr><td>φ + σ</td></tr>
+      <tr><td>πτ + σ</td></tr>
+      <tr><td>δ + σ</td><td rowspan="4" class="answer">σ</td></tr>
+      <tr><td>ζ + σ</td></tr>
+      <tr><td>θ + σ</td></tr>
+      <tr><td>τ + σ</td></tr>
+      <tr><td>γ + σ</td><td rowspan="5" class="answer">ξ</td></tr>
+      <tr><td>κ + σ</td></tr>
+      <tr><td>χ + σ</td></tr>
+      <tr><td>σκ + σ</td></tr>
+      <tr><td>σσ+ σ</td></tr>
+    </table>
 </div>
 <div class="controls">
     <button id="reveal-next" disabled="disabled">Reveal Next</button>
