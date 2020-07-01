@@ -1,7 +1,8 @@
 ---
 layout: default 
-title: Greek Verb Conjugation
+title: Greek Primer (3rd Edition) Verb Conjugation
 ---
+
 <script type="text/javascript" charset="UTF-8" src="./verbs.js"></script>
 
 <style>
@@ -33,13 +34,13 @@ title: Greek Verb Conjugation
         display: none;
     }
 
-    /* .controls { */
-    /*     width: 35%; */
-    /*     margin-top: 15px; */
-    /*     margin-left: auto; */
-    /*     margin-right: auto; */
-    /*     text-align: center; */
-    /* } */
+    .controls {
+        width: 35%;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 </style>
 
 <label>Verb Type</label>
