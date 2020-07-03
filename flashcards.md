@@ -29,6 +29,8 @@ title: Greek Primer (3rd Edition) Flashcards
     }
 </style>
 
+<a href="/greek/">Home</a>
+
 <p>Welcome to a flashcard game for studying ancient Greek words. Pick a chapter and hit start.
 </p>
 <label>Chapter</label>

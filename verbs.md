@@ -33,6 +33,10 @@ title: Greek Primer (3rd Edition) Verb Conjugation
     }
 </style>
 
+<a href="/greek/">Home</a>
+
+<p>Welcome to a verb conjugation tool for studying ancient Greek words. Pick a paradigm to start.</p>
+
 <label>Verb Type</label>
 <select id="typeSelect">
     <optgroup label="Active">
