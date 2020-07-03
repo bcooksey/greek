@@ -93,6 +93,9 @@ window.onload = () => {
     } else if (selectedValue === 'suffix-conflation') {
       tableWrapper = document.getElementById('suffix-conflation-wrapper');
       resetHardCodedTable(tableWrapper);
+    } else if (selectedValue === 'contraction') {
+      tableWrapper = document.getElementById('contraction-wrapper');
+      resetHardCodedTable(tableWrapper);
     } else {
       const selection = CONJUGATIONS[selectedValue];
       tableWrapper = document.getElementById('conjugation-wrapper');

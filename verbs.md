@@ -100,6 +100,30 @@ title: Greek Primer (3rd Edition) Verb Conjugation
       <tr><td>σσ+ σ</td></tr>
     </table>
 </div>
+<div id="contraction-wrapper" class="hidden">
+    <table>
+      <tr><th>Suffix</th><th>Becomes</th></tr>
+      <tr><td>ε + ω</td><td class="answer">ω</td></tr>
+      <tr><td>ε + ε</td><td rowspan="2" class="answer">ει</td></tr>
+      <tr><td>ε + ει</td></tr>
+      <tr><td>ε + ο</td><td rowspan="2" class="answer">ου</td></tr>
+      <tr><td>ε + ου</td></tr>
+      <tr><td>ε + ῃ</td><td class="answer">ῃ</td></tr>
+      <tr><td>ε + σ</td><td class="answer">ησ</td></tr>
+      <tr><td>α + ο</td><td rowspan="3" class="answer">ω</td></tr>
+      <tr><td>α + ω</td></tr>
+      <tr><td>α + ου</td></tr>
+      <tr><td>α + ε</td><td class="answer">α</td></tr>
+      <tr><td>α + ει</td><td class="answer">ᾳ</td></tr>
+      <tr><td>α + σ</td><td class="answer">ησ</td></tr>
+      <tr><td>ο + ω</td><td class="answer">ω</td></tr>
+      <tr><td>ο + ει</td><td class="answer">οι</td></tr>
+      <tr><td>ο + ε</td><td rowspan="3" class="answer">ου</td></tr>
+      <tr><td>ο + ο</td></tr>
+      <tr><td>ο + ου</td></tr>
+      <tr><td>ο + σ</td><td class="answer">ωσ</td></tr>
+    </table>
+</div>
 <div class="controls">
     <button id="reveal-next" disabled="disabled">Reveal Next</button>
     <button id="reveal-all" disabled="disabled">Reveal All</button>
