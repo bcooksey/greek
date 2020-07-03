@@ -42,7 +42,7 @@ title: Greek Primer (3rd Edition) Verb Conjugation
 
 <p>Welcome to a verb conjugation tool for studying ancient Greek words. Pick a paradigm to start.</p>
 
-<label>Verb Type</label>
+<label>Paradigm</label>
 <select id="typeSelect">
     <optgroup label="Active">
         <option value="pai">Present Active Indicative</option>

@@ -34,7 +34,7 @@ title: Greek Primer (3rd Edition) Noun Declension
 
 <p>Welcome to a noun declension tool for studying ancient Greek words. Pick a paradigm to start.</p>
 
-<label>Noun Type</label>
+<label>Paradigm</label>
 <select id="typeSelect">
     <option value="first-fem-eta">First Declension Feminine Eta</option>
     <option value="first-fem-alpha">First Declension Feminine Alpha</option>
