@@ -20,6 +20,15 @@ title: Greek Primer (3rd Edition) Verb Conjugation
         padding-right: 15px;
     }
 
+    table td {
+      border: 1px solid black;
+    }
+
+    .centered-text {
+      text-align: center;
+      vertical-align: middle;
+    }
+
     .hidden {
         display: none;
     }
@@ -69,7 +78,7 @@ title: Greek Primer (3rd Edition) Verb Conjugation
     </table>
     <span id="note"></span>
 </div>
-<div id="prefix-conflation-wrapper" class="hidden">
+<div id="prefix-conflation-wrapper" class="hidden centered-text">
     <table>
       <tr><th>Prefix</th><th>Becomes</th></tr>
       <tr><td>ε + α</td><td rowspan="3" class="answer">η</td></tr>
@@ -86,7 +95,7 @@ title: Greek Primer (3rd Edition) Verb Conjugation
       <tr><td>ε + οι</td><td class="answer">ῳ</td></tr>
     </table>
 </div>
-<div id="suffix-conflation-wrapper" class="hidden">
+<div id="suffix-conflation-wrapper" class="hidden centered-text">
     <table>
       <tr><th>Suffix</th><th>Becomes</th></tr>
       <tr><td>β + σ</td><td rowspan="4" class="answer">ψ</td></tr>
@@ -104,7 +113,7 @@ title: Greek Primer (3rd Edition) Verb Conjugation
       <tr><td>σσ+ σ</td></tr>
     </table>
 </div>
-<div id="contraction-wrapper" class="hidden">
+<div id="contraction-wrapper" class="hidden centered-text">
     <table>
       <tr><th>Suffix</th><th>Becomes</th></tr>
       <tr><td>ε + ω</td><td class="answer">ω</td></tr>

@@ -18,6 +18,8 @@ title: Greek Primer (3rd Edition) Noun Declension
     #wrapper table td {
         min-width: 80px;
         padding-right: 15px;
+        border: 1px solid black;
+        text-align: start;
     }
 
     .hidden {
