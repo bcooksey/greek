@@ -6,10 +6,6 @@ title: Greek Primer (3rd Edition) Noun Declension
 <script type="text/javascript" charset="UTF-8" src="./nouns.js"></script>
 
 <style>
-    #wrapper th {
-        text-align: start;
-    }
-
     #wrapper .variable-heading {
         min-width: 100px;
         padding-right: 15px;
@@ -19,7 +15,6 @@ title: Greek Primer (3rd Edition) Noun Declension
         min-width: 80px;
         padding-right: 15px;
         border: 1px solid black;
-        text-align: start;
     }
 
     .hidden {

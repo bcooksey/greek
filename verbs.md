@@ -6,10 +6,6 @@ title: Greek Primer (3rd Edition) Verb Conjugation
 <script type="text/javascript" charset="UTF-8" src="./verbs.js"></script>
 
 <style>
-    #conjugation-wrapper th {
-        text-align: start;
-    }
-
     #conjugation-wrapper .variable-heading {
         min-width: 100px;
         padding-right: 15px;
@@ -24,7 +20,7 @@ title: Greek Primer (3rd Edition) Verb Conjugation
       border: 1px solid black;
     }
 
-    .centered-text {
+    .centered-text .answer {
       text-align: center;
       vertical-align: middle;
     }
