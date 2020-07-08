@@ -3,7 +3,7 @@ layout: default
 title: Greek Primer (3rd Edition) Flashcards
 ---
 
-<script type="text/javascript" charset="UTF-8" src="./main.js"></script>
+<script type="text/javascript" charset="UTF-8" src="./flashcards.js"></script>
 
 <style>
     #card {
@@ -45,6 +45,7 @@ title: Greek Primer (3rd Edition) Flashcards
     <option value="8">8</option>
     <option value="9">9</option>
     <option value="10">10</option>
+    <option value="11">11</option>
 </select>
 <input type="checkbox" id="includePrior" name="includePrior" value="yes">
 <label for="includePrior">Include earlier chapters?</label>
