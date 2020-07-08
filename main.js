@@ -109,6 +109,17 @@ const VOCAB = [
   {chap: '10', greek: 'νεκρός, -ά, -όν', english: 'dead', type: 'adjective'},
   {chap: '10', greek: 'πιστός, -ή, -όν', english: 'faithful, believing', type: 'adjective'},
   {chap: '10', greek: 'πονηρός, -ά, -όν', english: 'evil, wicked', type: 'adjective'},
+  {chap: '11', greek: 'αἰών, αἰῶνος, ὁ', english: 'age; the world', type: 'noun', article: 'ὁ'},
+  {chap: '11', greek: 'αἰώνιος, -ον', english: 'eternal', type: 'adjective'},
+  {chap: '11', greek: 'ἀνήρ, ἀνδρός, ὁ', english: 'man; husband', type: 'noun', article: 'ὁ'},
+  {chap: '11', greek: 'γυνή, γυναικός, ἡ', english: 'woman; wife', type: 'noun', article: 'ἡ'},
+  {chap: '11', greek: 'ὄνομα, ὀνόματος, τό', english: 'name', type: 'noun', article: 'τό'},
+  {chap: '11', greek: 'πνεῦμα, πνεύματος, τό', english: 'Spirit; spirit; breath; wind', type: 'noun', article: 'τό'},
+  {chap: '11', greek: 'πούς, ποδός, ὁ', english: 'foot', type: 'noun', article: 'ὁ'},
+  {chap: '11', greek: 'σάρξ, σαρκός, ἡ', english: 'flesh', type: 'noun', article: 'ἡ'},
+  {chap: '11', greek: 'σῶμα, σώματος, τό', english: 'body', type: 'noun', article: 'τό'},
+  {chap: '11', greek: 'φῶς, φωτός, τό', english: 'light', type: 'noun', article: 'τό'},
+  {chap: '11', greek: 'χείρ, χειρός, ἡ', english: 'hand', type: 'noun', article: 'ἡ'},
 ];
 
 let currentGame;
