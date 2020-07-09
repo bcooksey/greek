@@ -68,41 +68,40 @@ title: Greek Primer (3rd Edition) Verb Conjugation
 <div id="conjugation-wrapper" class="active-table">
     <table>
         <tr><th>Person</th><th class="variable-heading">Singular</th><th class="variable-heading">Plural</th></tr>
-        <tr><td>1st</td><td class="col1 answer"></td><td class="answer"></td></tr>
-        <tr><td>2nd</td><td class="col1 answer"></td><td class="answer"></td></tr>
-        <tr><td>3rd</td><td class="col1 answer"></td><td class="answer"></td></tr>
+        <tr><td>1st</td><td class="col1"><span class="answer"></span></td><td><span class="answer"></span></td></tr>
+        <tr><td>2nd</td><td class="col1"><span class="answer"></span></td><td><span class="answer"></span></td></tr>
+        <tr><td>3rd</td><td class="col1"><span class="answer"></span></td><td><span class="answer"></span></td></tr>
     </table>
-    <span id="note"></span>
 </div>
 <div id="prefix-conflation-wrapper" class="hidden centered-text">
     <table>
       <tr><th>Prefix</th><th>Becomes</th></tr>
-      <tr><td>ε + α</td><td rowspan="3" class="answer">η</td></tr>
+      <tr><td>ε + α</td><td rowspan="3"><span class="answer">η</span></td></tr>
       <tr><td>ε + ε</td></tr>
       <tr><td>ε + η</td></tr>
-      <tr><td>ε + ο</td><td rowspan="2" class="answer">ω</td></tr>
+      <tr><td>ε + ο</td><td rowspan="2"><span class="answer">ω</span></td></tr>
       <tr><td>ε + ω</td></tr>
-      <tr><td>ε + ι</td><td class="answer">ι</td></tr>
-      <tr><td>ε + υ</td><td class="answer">υ</td></tr>
-      <tr><td>ε + αι</td><td rowspan="2" class="answer">ῃ</td></tr>
+      <tr><td>ε + ι</td><td><span class="answer">ι</span></td></tr>
+      <tr><td>ε + υ</td><td><span class="answer">υ</span></td></tr>
+      <tr><td>ε + αι</td><td rowspan="2"><span class="answer">ῃ</span></td></tr>
       <tr><td>ε + ει</td></tr>
-      <tr><td>ε + αυ</td><td rowspan="2" class="answer">ηυ</td></tr>
+      <tr><td>ε + αυ</td><td rowspan="2"><span class="answer">ηυ</span></td></tr>
       <tr><td>ε + ευ</td></tr>
-      <tr><td>ε + οι</td><td class="answer">ῳ</td></tr>
+      <tr><td>ε + οι</td><td><span class="answer">ῳ</span></td></tr>
     </table>
 </div>
 <div id="suffix-conflation-wrapper" class="hidden centered-text">
     <table>
       <tr><th>Suffix</th><th>Becomes</th></tr>
-      <tr><td>β + σ</td><td rowspan="4" class="answer">ψ</td></tr>
+      <tr><td>β + σ</td><td rowspan="4"><span class="answer">ψ</span></td></tr>
       <tr><td>π + σ</td></tr>
       <tr><td>φ + σ</td></tr>
       <tr><td>πτ + σ</td></tr>
-      <tr><td>δ + σ</td><td rowspan="4" class="answer">σ</td></tr>
+      <tr><td>δ + σ</td><td rowspan="4"><span class="answer">σ</span></td></tr>
       <tr><td>ζ + σ</td></tr>
       <tr><td>θ + σ</td></tr>
       <tr><td>τ + σ</td></tr>
-      <tr><td>γ + σ</td><td rowspan="5" class="answer">ξ</td></tr>
+      <tr><td>γ + σ</td><td rowspan="5"><span class="answer">ξ</span></td></tr>
       <tr><td>κ + σ</td></tr>
       <tr><td>χ + σ</td></tr>
       <tr><td>σκ + σ</td></tr>
@@ -112,25 +111,25 @@ title: Greek Primer (3rd Edition) Verb Conjugation
 <div id="contraction-wrapper" class="hidden centered-text">
     <table>
       <tr><th>Suffix</th><th>Becomes</th></tr>
-      <tr><td>ε + ω</td><td class="answer">ω</td></tr>
-      <tr><td>ε + ε</td><td rowspan="2" class="answer">ει</td></tr>
+      <tr><td>ε + ω</td><td><span class="answer">ω</span></td></tr>
+      <tr><td>ε + ε</td><td rowspan="2"><span class="answer">ει</span></td></tr>
       <tr><td>ε + ει</td></tr>
-      <tr><td>ε + ο</td><td rowspan="2" class="answer">ου</td></tr>
+      <tr><td>ε + ο</td><td rowspan="2"><span class="answer">ου</span></td></tr>
       <tr><td>ε + ου</td></tr>
-      <tr><td>ε + ῃ</td><td class="answer">ῃ</td></tr>
-      <tr><td>ε + σ</td><td class="answer">ησ</td></tr>
-      <tr><td>α + ο</td><td rowspan="3" class="answer">ω</td></tr>
+      <tr><td>ε + ῃ</td><td><span class="answer">ῃ</span></td></tr>
+      <tr><td>ε + σ</td><td><span class="answer">ησ</span></td></tr>
+      <tr><td>α + ο</td><td rowspan="3"><span class="answer">ω</span></td></tr>
       <tr><td>α + ω</td></tr>
       <tr><td>α + ου</td></tr>
-      <tr><td>α + ε</td><td class="answer">α</td></tr>
-      <tr><td>α + ει</td><td class="answer">ᾳ</td></tr>
-      <tr><td>α + σ</td><td class="answer">ησ</td></tr>
-      <tr><td>ο + ω</td><td class="answer">ω</td></tr>
-      <tr><td>ο + ει</td><td class="answer">οι</td></tr>
-      <tr><td>ο + ε</td><td rowspan="3" class="answer">ου</td></tr>
+      <tr><td>α + ε</td><td><span class="answer">α</span></td></tr>
+      <tr><td>α + ει</td><td><span class="answer">ᾳ</span></td></tr>
+      <tr><td>α + σ</td><td><span class="answer">ησ</span></td></tr>
+      <tr><td>ο + ω</td><td><span class="answer">ω</span></td></tr>
+      <tr><td>ο + ει</td><td><span class="answer">οι</span></td></tr>
+      <tr><td>ο + ε</td><td rowspan="3"><span class="answer">ου</span></td></tr>
       <tr><td>ο + ο</td></tr>
       <tr><td>ο + ου</td></tr>
-      <tr><td>ο + σ</td><td class="answer">ωσ</td></tr>
+      <tr><td>ο + σ</td><td><span class="answer">ωσ</span></td></tr>
     </table>
 </div>
 <div class="controls">

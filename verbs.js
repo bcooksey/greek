@@ -37,7 +37,7 @@ const resetHardCodedTable = (tableWrapper) => {
 }
 
 const showNext = (tableWrapper) => {
-  let nextAnswer = tableWrapper.querySelector('.col1.hidden');
+  let nextAnswer = tableWrapper.querySelector('.col1 .hidden');
   if (!nextAnswer) {
     nextAnswer = tableWrapper.querySelector('.hidden');
   }
