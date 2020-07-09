@@ -44,7 +44,7 @@ const setupTable = (selection, tableWrapper) => {
   tableWrapper.querySelectorAll('.answer').forEach((answer) => {
     answer.classList.add('hidden');
     let displayText = selection.articles[counter] + ' ';
-    if (selection.irregulars[counter] !== null) {
+    if (selection.irregulars && selection.irregulars[counter] !== null) {
       displayText += selection.irregulars[counter];
     } else {
       displayText += selection.stem + ' + ';
