@@ -20,7 +20,7 @@ title: Greek Primer (3rd Edition) Verb Conjugation
       border: 1px solid black;
     }
 
-    .centered-text .answer {
+    .centered-text td {
       text-align: center;
       vertical-align: middle;
     }
