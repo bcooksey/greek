@@ -33,8 +33,8 @@ title: Greek Primer (3rd Edition) Flashcards
 
 <p>Welcome to a flashcard game for studying ancient Greek words. Pick a chapter and hit start.
 </p>
-<label>Chapters</label>
-<select id="chapterSelect" multiple>
+<label>Chapter</label>
+<select id="chapterSelect">
     <option value="0">All</option>
     <option value="2">2</option>
     <option value="3">3</option>
@@ -47,6 +47,8 @@ title: Greek Primer (3rd Edition) Flashcards
     <option value="10">10</option>
     <option value="11">11</option>
 </select>
+<input type="checkbox" id="includePrior" name="includePrior" value="yes">
+<label for="includePrior">Include earlier chapters?</label>
 <button id="start">Start</button>
 <div id="card">
     <span class="question"></span>
