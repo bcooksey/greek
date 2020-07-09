@@ -139,14 +139,6 @@ const randomizeList = (list) => {
   }
 };
 
-const parseSelection = (selectedOptions) => {
-  const selections = [];
-  Array.from(selectedOptions).forEach((currentOption) => {
-    selections.push(currentOption.value);
-  });
-  return selections;
-};
-
 const initializeGame = (vocab) => {
   randomizeList(vocab);
   currentGame = new Game(vocab);
@@ -187,13 +179,9 @@ window.onload = () => {
 
   const startBttn = document.getElementById('start');
   startBttn.onclick = (event) => {
-    const selector = document.getElementById('chapterSelect');
-    const vocabSelection = parseSelection(selector.selectedOptions);
-    const availableVocab = vocabSelection.includes('0') ? VOCAB : VOCAB.filter((word) => vocabSelection.includes(word.chap));
-
-    if (!availableVocab || typeof availableVocab === 'undefined' || availableVocab.length == 0) {
-      return;
-    }
+    const vocabSelection = document.getElementById('chapterSelect').value;
+    const includePrior = document.getElementById('includePrior').checked;
+    const availableVocab = vocabSelection === '0' ? VOCAB : VOCAB.filter((word) => word.chap === vocabSelection || (includePrior && parseInt(word.chap) < parseInt(vocabSelection)));
 
     initializeGame(availableVocab);
     revealBttn.disabled = false;
