@@ -20,9 +20,22 @@ const DECLENSIONS = {
       articles: ['το', 'τα', 'του', 'των', 'τῳ', 'τοις', 'το', 'τα']
     },
     'third-n': {
-      stem: '',
-      endings: ['', '', '', '', '', '', '', ''],
-      articles: ['', '', '', '', '', '', '', '']
+      stem: 'πνευμα',
+      endings: [null, 'τα', 'τος', 'των', 'τι', 'σι(ν)', null, 'τα'],
+      irregulars: ['πνευμα', null, null, null, null, null, 'πνευμα', null],
+      articles: ['το', 'τα', 'του', 'των', 'τῳ', 'τοις', 'το', 'τα']
+    },
+    'third-m': {
+      stem: 'ἀνδρ',
+      endings: [null, 'ες', 'ος', 'ων', 'ι', 'σι(ν)', 'α', 'ας'],
+      irregulars: ['ἀνηρ', null, null, null, null, null, null, null],
+      articles: ['ὁ', 'οἱ', 'του', 'των', 'τῳ', 'τοις', 'τον', 'τους']
+    },
+    'third-f': {
+      stem: 'γυναικ',
+      endings: [null, 'ες', 'ος', 'ων', 'ι', 'σι(ν) [will contract]', 'α', 'ας'],
+      irregulars: ['γυνη', null, null, null, null, null, null, null],
+      articles: ['ἡ', 'αἱ', 'της', 'των', 'τῃ', 'ταις', 'την', 'τας']
     },
 };
 
@@ -31,15 +44,19 @@ const setupTable = (selection, tableWrapper) => {
   tableWrapper.querySelectorAll('.answer').forEach((answer) => {
     answer.classList.add('hidden');
     let displayText = selection.articles[counter] + ' ';
-    displayText += selection.stem + ' + ';
-    displayText += selection.endings[counter]; 
+    if (selection.irregulars[counter] !== null) {
+      displayText += selection.irregulars[counter];
+    } else {
+      displayText += selection.stem + ' + ';
+      displayText += selection.endings[counter];
+    }
     answer.textContent = displayText;
     counter += 1;
   });
 };
 
 const showNext = (tableWrapper) => {
-  let nextAnswer = tableWrapper.querySelector('.col1.hidden');
+  let nextAnswer = tableWrapper.querySelector('.col1 .hidden');
   if (!nextAnswer) {
     nextAnswer = tableWrapper.querySelector('.hidden');
   }
@@ -83,10 +100,6 @@ window.onload = () => {
 
   const startBttn = document.getElementById('start');
   startBttn.onclick = () => {
-    // const previousWrapper = document.querySelector('.active-table');
-    // previousWrapper.classList.add('hidden');
-    // previousWrapper.classList.remove('active-table');
-
     let tableWrapper;
     const selectedValue = document.getElementById('typeSelect').value;
     const selection = DECLENSIONS[selectedValue];
@@ -95,9 +108,5 @@ window.onload = () => {
 
     revealBttn.disabled = false;
     revealAllBttn.disabled = false;
-
-    // tableWrapper.classList.add('active-table');
-    // tableWrapper.classList.remove('hidden');
   };
-
 };
