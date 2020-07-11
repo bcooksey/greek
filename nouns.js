@@ -20,8 +20,8 @@ const DECLENSIONS = {
       articles: ['το', 'τα', 'του', 'των', 'τῳ', 'τοις', 'το', 'τα']
     },
     'third-n': {
-      stem: 'πνευμα',
-      endings: [null, 'τα', 'τος', 'των', 'τι', 'σι(ν)', null, 'τα'],
+      stem: 'πνευματ',
+      endings: [null, 'α', 'ος', 'ων', 'ι', 'σι(ν)', null, 'α'],
       irregulars: ['πνευμα', null, null, null, null, null, 'πνευμα', null],
       articles: ['το', 'τα', 'του', 'των', 'τῳ', 'τοις', 'το', 'τα']
     },
