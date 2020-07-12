@@ -93,6 +93,7 @@ const VOCAB = [
   {chap: '9', greek: 'ἔπεσον', english: 'I fell (2nd Aorist of πίπτω)', type: 'verb'},
   {chap: '9', greek: 'ἤγαγον', english: 'I led, drove (2nd Aorist of ἄγω)', type: 'verb'},
   {chap: '9', greek: 'ἔβαλον', english: 'I threw; I put (2nd Aorist of βάλλω)', type: 'verb'},
+  {chap: '9', greek: 'εἶδον', english: 'I saw (2nd Aorist of Βλέπω)', type: 'verb'},
   {chap: '9', greek: 'ἐγενόμην', english: 'I became; it happened (3rd person sing.) (2nd Aorist of γίνομαι)', type: 'verb'},
   {chap: '9', greek: 'ἦλθον', english: 'I came, went (2nd Aorist of ἔρχομαι)', type: 'verb'},
   {chap: '9', greek: 'ἔφαγον', english: 'I ate (2nd Aorist of ἐσθίω)', type: 'verb'},
