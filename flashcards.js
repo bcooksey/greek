@@ -132,6 +132,20 @@ const VOCAB = [
   {chap: '12', greek: 'πατήρ, πατρός, ὁ', english: 'father', type: 'noun', article: 'ὁ'},
   {chap: '12', greek: 'πίστις, -εως, ἡ', english: 'faith, trust', type: 'noun', article: 'ἡ'},
   {chap: '12', greek: 'πόλις, -εως, ἡ', english: 'city', type: 'noun', article: 'ἡ'},
+  {chap: '13', greek: 'ἀπό + gen.', english: 'from (gen)', type: 'preposition'},
+  {chap: '13', greek: 'διά + gen.; +acc.', english: 'through (gen); because of (acc)', type: 'preposition'},
+  {chap: '13', greek: 'εἰς + acc.', english: 'unto, into, to, in (acc)', type: 'preposition'},
+  {chap: '13', greek: 'ἐκ + gen.', english: 'out of, from (gen)', type: 'preposition'},
+  {chap: '13', greek: 'ἐν + dat.', english: 'in, on, among, by means of (dat)', type: 'preposition'},
+  {chap: '13', greek: 'ἐπί + gen.; + dat.; + acc.', english: 'on, upon (gen); upon, on the basis of (dat); against, upon (acc)', type: 'preposition'},
+  {chap: '13', greek: 'κατά + gen.; + acc.', english: 'down from, against (gen); according to (acc)', type: 'preposition'},
+  {chap: '13', greek: 'μετά + gen.; + acc.', english: 'with (gen); after (acc)', type: 'preposition'},
+  {chap: '13', greek: 'παρά + gen.; + dat.; + acc.', english: 'from, with (gen); with, beside (dat); beside (acc)', type: 'preposition'},
+  {chap: '13', greek: 'περί + gen.; + acc.', english: 'concerning, about (gen); around (acc)', type: 'preposition'},
+  {chap: '13', greek: 'πρός + acc.', english: 'to, toward, in the presence of (acc)', type: 'preposition'},
+  {chap: '13', greek: 'σύν + dat.', english: 'with, along with (dat)', type: 'preposition'},
+  {chap: '13', greek: 'ὑπέρ + gen.; + acc.', english: 'on behalf of, for the sake of (gen); above (acc)', type: 'preposition'},
+  {chap: '13', greek: 'ὑπό + gen.; + acc.', english: 'by (gen); under (acc)', type: 'preposition'},
 ];
 
 let currentGame;
