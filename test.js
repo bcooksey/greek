@@ -120,6 +120,17 @@ const VOCAB = [
   {chap: '11', greek: 'σῶμα, σώματος, τό', english: 'body', type: 'noun', article: 'τό'},
   {chap: '11', greek: 'φῶς, φωτός, τό', english: 'light', type: 'noun', article: 'τό'},
   {chap: '11', greek: 'χείρ, χειρός, ἡ', english: 'hand', type: 'noun', article: 'ἡ'},
+  {chap: '12', greek: 'ἀρχιερεύς, -έως, ὁ', english: 'high priest', type: 'noun', article: 'ὁ'},
+  {chap: '12', greek: 'βασιλεύς, -έως, ὁ', english: 'king', type: 'noun', article: 'ὁ'},
+  {chap: '12', greek: 'γραμματεύς, -έως, ὁ', english: 'scribe', type: 'noun', article: 'ὁ'},
+  {chap: '12', greek: 'δύναμις, -εως, ἡ', english: 'power', type: 'noun', article: 'ἡ'},
+  {chap: '12', greek: 'ἔθνος, -ους, τό', english: 'nation; Gentiles (pl.)', type: 'noun', article: 'τό'},
+  {chap: '12', greek: 'μήτηρ, μητρός, ἡ', english: 'mother', type: 'noun', article: 'ἡ'},
+  {chap: '12', greek: 'ὄρος, -ους, τό', english: 'mountain', type: 'noun', article: 'τό'},
+  {chap: '12', greek: 'πᾶς, πᾶσα, πᾶν', english: 'all, every; whole', type: 'adjective'},
+  {chap: '12', greek: 'πατήρ, πατρός, ὁ', english: 'father', type: 'noun', article: 'ὁ'},
+  {chap: '12', greek: 'πίστις, -εως, ἡ', english: 'faith, trust', type: 'noun', article: 'ἡ'},
+  {chap: '12', greek: 'πόλις, -εως, ἡ', english: 'city', type: 'noun', article: 'ἡ'},
 ];
 
 let currentGame;

@@ -46,6 +46,7 @@ title: Greek Primer (3rd Edition) Flashcards
     <option value="9">9</option>
     <option value="10">10</option>
     <option value="11">11</option>
+    <option value="12">12</option>
 </select>
 <input type="checkbox" id="includePrior" name="includePrior" value="yes">
 <label for="includePrior">Include earlier chapters?</label>
