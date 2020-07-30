@@ -52,6 +52,9 @@ title: Greek Primer (3rd Edition) Flashcards
     <option value="11">11</option>
     <option value="12">12</option>
     <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
 </select>
 <button id="start">Start</button>
 <div id="card">
