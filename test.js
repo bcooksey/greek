@@ -146,7 +146,7 @@ const VOCAB = [
   {chap: '13', greek: 'ὑπέρ + gen.; + acc.', english: 'on behalf of, for the sake of (gen); above (acc)', type: 'preposition'},
   {chap: '13', greek: 'ὑπό + gen.; + acc.', english: 'by (gen); under (acc)', type: 'preposition'},
   {chap: '14', greek: 'ἀπέρχομαι', english: 'I go away, leave', type: 'verb'},
-  {chap: '14', greek: 'ἀπελήλυθα', english: 'I have gone away, have left (Perfect of ἀπελήλυθα)', type: 'verb'},
+  {chap: '14', greek: 'ἀπελήλυθα', english: 'I have gone away, have left (Perfect of ἀπέρχομαι)', type: 'verb'},
   {chap: '14', greek: 'ἐγγίζω', english: 'I draw near, approach', type: 'verb'},
   {chap: '14', greek: 'ἤγγικα', english: 'I have drawn near, have approached (Perfect of ἐγγίζω)', type: 'verb'},
   {chap: '14', greek: 'μαρτυρέω', english: 'I testify, bear witness', type: 'verb'},
