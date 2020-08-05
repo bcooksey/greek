@@ -20,6 +20,10 @@ const CONJUGATIONS = {
     'first-aorist-d-i': {stem: 'πορεύ', endings: ['αμην', 'αμεθα', 'ω', 'ασθε', 'ατο', 'αντο'], prefix: 'ἐ', suffix: 'σ'},
     'second-aorist-d-i': {stem: 'ἐγεν', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: '', suffix: ''},
     'pf-d-i': {stem: 'πορεύ', endings: ['μαι', 'μεθα', 'σαι', 'σθε', 'ται', 'νται'], prefix: '', suffix: ''},
+
+    // 'eimi-pai': {stem: 'εἰμι', endings: ['', '', '', '', '', ''], prefix: '', suffix: ''},
+    // 'eimi-iai': {stem: '', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: '', suffix: ''},
+    // 'eimi-fdi': {stem: '', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: '', suffix: ''},
 };
 
 const setupTable = (selection, tableWrapper) => {
