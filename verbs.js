@@ -1,14 +1,25 @@
 const CONJUGATIONS = {
-    pai: {stem: 'λυ', endings: ['ω', 'ομεν', 'εις', 'ετε', 'ει', 'ουσι(ν)'], prefix: '', suffix: ''},
-    iai: {stem: 'λυ', endings: ['ον', 'ομεν', 'ες', 'ετε', 'ε(ν)', 'ον'], prefix: 'ἐ', suffix: ''},
-    fai: {stem: 'λυ', endings: ['ω', 'ομεν', 'εις', 'ετε', 'ει', 'ουσι(ν)'], prefix: '', suffix: 'σ'},
-    'first-aorist-ai': {stem: 'λυ', endings: ['α', 'αμεν', 'ας', 'ατε', 'ε(ν)', 'αν'], prefix: 'ἐ', suffix: 'σ'},
-    'second-aorist-ai': {stem: 'ἠλθ', endings: ['ον', 'ομεν', 'ες', 'ετε', 'ε(ν)', 'ον'], prefix: '', suffix: ''},
-    pdi: {stem: 'πορεύ', endings: ['ομαι', 'ομεθα', 'ῃ', 'εσθε', 'εται', 'ονται'], prefix: '', suffix: ''},
-    idi: {stem: 'πορεύ', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: 'ἐ', suffix: ''},
-    fdi: {stem: 'πορεύ', endings: ['ομαι', 'ομεθα', 'ῃ', 'εσθε', 'εται', 'ονται'], prefix: '', suffix: 'σ'},
-    'first-aorist-di': {stem: 'πορεύ', endings: ['αμην', 'αμεθα', 'ω', 'ασθε', 'ατο', 'αντο'], prefix: 'ἐ', suffix: 'σ'},
-    'second-aorist-di': {stem: 'ἐγεν', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: '', suffix: ''},
+    // Reg
+    'p-a-i': {stem: 'λυ', endings: ['ω', 'ομεν', 'εις', 'ετε', 'ει', 'ουσι(ν)'], prefix: '', suffix: ''},
+    'i-a-i': {stem: 'λυ', endings: ['ον', 'ομεν', 'ες', 'ετε', 'ε(ν)', 'ον'], prefix: 'ἐ', suffix: ''},
+    'f-a-i': {stem: 'λυ', endings: ['ω', 'ομεν', 'εις', 'ετε', 'ει', 'ουσι(ν)'], prefix: '', suffix: 'σ'},
+    'first-aorist-a-i': {stem: 'λυ', endings: ['α', 'αμεν', 'ας', 'ατε', 'ε(ν)', 'αν'], prefix: 'ἐ', suffix: 'σ'},
+    'second-aorist-a-i': {stem: 'ἠλθ', endings: ['ον', 'ομεν', 'ες', 'ετε', 'ε(ν)', 'ον'], prefix: '', suffix: ''},
+    'pf-a-i': {stem: 'λελυ', endings: ['α', 'αμεν', 'ας', 'ατε', 'ε(ν)', 'αν/ασιν'], prefix: '', suffix: 'κ'},
+    'p-mp-i': {stem: 'λυ', endings: ['ομαι', 'ομεθα', 'ῃ', 'εσθε', 'εται', 'ονται'], prefix: '', suffix: ''},
+    'i-mp-i': {stem: 'λυ', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: 'ἐ', suffix: ''},
+    'f-m-i': {stem: 'λυ', endings: ['ομαι', 'ομεθα', 'ῃ', 'εσθε', 'εται', 'ονται'], prefix: '', suffix: 'σ'},
+    'f-p-i': {stem: 'λυ', endings: ['ομαι', 'ομεθα', 'ῃ', 'εσθε', 'εται', 'ονται'], prefix: '', suffix: 'θησ'},
+    'aorist-m-i': {stem: 'λυ', endings: ['αμην', 'αμεθα', 'ω', 'ασθε', 'ατο', 'αντο'], prefix: 'ἐ', suffix: 'σ'},
+    'aorist-p-i': {stem: 'λυ', endings: ['ην', 'ημεν', 'ης', 'ητε', 'η', 'ησαν'], prefix: 'ἐ', suffix: 'θ'},
+    'pf-mp-i': {stem: 'λελυ', endings: ['μαι', 'μεθα', 'σαι', 'σθε', 'ται', 'νται'], prefix: '', suffix: ''},
+    // Deponent
+    'p-d-i': {stem: 'πορεύ', endings: ['ομαι', 'ομεθα', 'ῃ', 'εσθε', 'εται', 'ονται'], prefix: '', suffix: ''},
+    'i-d-i': {stem: 'πορεύ', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: 'ἐ', suffix: ''},
+    'f-d-i': {stem: 'πορεύ', endings: ['ομαι', 'ομεθα', 'ῃ', 'εσθε', 'εται', 'ονται'], prefix: '', suffix: 'σ'},
+    'first-aorist-d-i': {stem: 'πορεύ', endings: ['αμην', 'αμεθα', 'ω', 'ασθε', 'ατο', 'αντο'], prefix: 'ἐ', suffix: 'σ'},
+    'second-aorist-d-i': {stem: 'ἐγεν', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: '', suffix: ''},
+    'pf-d-i': {stem: 'πορεύ', endings: ['μαι', 'μεθα', 'σαι', 'σθε', 'ται', 'νται'], prefix: '', suffix: ''},
 };
 
 const setupTable = (selection, tableWrapper) => {

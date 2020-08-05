@@ -45,18 +45,29 @@ title: Greek Primer (3rd Edition) Verb Conjugation
 <label>Paradigm</label>
 <select id="typeSelect">
     <optgroup label="Active">
-        <option value="pai">Present Active Indicative</option>
-        <option value="iai">Imperfect Active Indicative</option>
-        <option value="fai">Future Active Indicative</option>
-        <option value="first-aorist-ai">1st Aorist Active Indicative</option>
-        <option value="second-aorist-ai">2nd Aorist Active Indicative</option>
+        <option value="p-a-i">Present Active Indicative</option>
+        <option value="i-a-i">Imperfect Active Indicative</option>
+        <option value="f-a-i">Future Active Indicative</option>
+        <option value="first-aorist-a-i">1st Aorist Active Indicative</option>
+        <option value="second-aorist-a-i">2nd Aorist Active Indicative</option>
+        <option value="pf-a-i">Perfect Active indicative</option>
+    </optgroup>
+    <optgroup label="Middle and Passive">
+        <option value="p-mp-i">Present Middle/Passive Indicative</option>
+        <option value="i-mp-i">Imperfect Middle/Passive Indicative</option>
+        <option value="f-m-i">Future Middle Indicative</option>
+        <option value="f-p-i">Future Passive Indicative</option>
+        <option value="aorist-m-i">Aorist Middle Indicative</option>
+        <option value="aorist-p-i">Aorist Passive Indicative</option>
+        <option value="pf-mp-i">Perfect Middle/Passive Indicative</option>
     </optgroup>
     <optgroup label="Deponent">
-        <option value="pdi">Present Deponent Indicative</option>
-        <option value="idi">Imperfect Deponent Indicative</option>
-        <option value="fdi">Future Deponent Indicative</option>
-        <option value="first-aorist-di">1st Aorist Deponent Indicative</option>
-        <option value="second-aorist-di">2nd Aorist Deponent Indicative</option>
+        <option value="p-d-i">Present Deponent Indicative</option>
+        <option value="i-d-i">Imperfect Deponent Indicative</option>
+        <option value="f-d-i">Future Deponent Indicative</option>
+        <option value="first-aorist-d-i">1st Aorist Deponent Indicative</option>
+        <option value="second-aorist-d-i">2nd Aorist Deponent Indicative</option>
+        <option value="pf-d-i">Perfect Deponent Indicative</option>
     </optgroup>
     <optgroup label="Other">
         <option value="prefix-conflation">Prefix Conflation Rules</option>
@@ -118,18 +129,24 @@ title: Greek Primer (3rd Edition) Verb Conjugation
       <tr><td>ε + ου</td></tr>
       <tr><td>ε + ῃ</td><td><span class="answer">ῃ</span></td></tr>
       <tr><td>ε + σ</td><td><span class="answer">ησ</span></td></tr>
+      <tr><td>ε + θ</td><td><span class="answer">ηθ</span></td></tr>
+      <tr><td>ε + κ</td><td><span class="answer">ηκ</span></td></tr>
       <tr><td>α + ο</td><td rowspan="3"><span class="answer">ω</span></td></tr>
       <tr><td>α + ω</td></tr>
       <tr><td>α + ου</td></tr>
       <tr><td>α + ε</td><td><span class="answer">α</span></td></tr>
       <tr><td>α + ει</td><td><span class="answer">ᾳ</span></td></tr>
       <tr><td>α + σ</td><td><span class="answer">ησ</span></td></tr>
+      <tr><td>α + θ</td><td><span class="answer">ηθ</span></td></tr>
+      <tr><td>α + κ</td><td><span class="answer">ηκ</span></td></tr>
       <tr><td>ο + ω</td><td><span class="answer">ω</span></td></tr>
       <tr><td>ο + ει</td><td><span class="answer">οι</span></td></tr>
       <tr><td>ο + ε</td><td rowspan="3"><span class="answer">ου</span></td></tr>
       <tr><td>ο + ο</td></tr>
       <tr><td>ο + ου</td></tr>
       <tr><td>ο + σ</td><td><span class="answer">ωσ</span></td></tr>
+      <tr><td>ο + θ</td><td><span class="answer">ωθ</span></td></tr>
+      <tr><td>ο + κ</td><td><span class="answer">ωκ</span></td></tr>
     </table>
 </div>
 <div class="controls">
