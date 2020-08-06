@@ -22,7 +22,7 @@ const DECLENSIONS = {
     'third-n': {
       stem: 'πνευματ',
       endings: [null, 'α', 'ος', 'ων', 'ι', 'σι(ν)', null, 'α'],
-      irregulars: ['πνευμα', null, null, null, null, 'πνευμα' 'πνευμα', null],
+      irregulars: ['πνευμα', null, null, null, null, 'πνευμα', 'πνευμα', null],
       articles: ['το', 'τα', 'του', 'των', 'τῳ', 'τοις', 'το', 'τα']
     },
     'third-m': {
