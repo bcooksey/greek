@@ -191,7 +191,7 @@ const VOCAB = [
   {chap: '17', greek: 'ὅτι', english: 'that; because', type: ''},
   {chap: '17', greek: 'οὗτος, αὕτη, τοῦτο', english: 'this; he, she, it', type: 'pronoun'},
   {chap: '17', greek: 'σάββατον, τό', english: 'Sabbath', type: 'noun'},
-  {chap: '17', greek: 'τίς, τί – who? what?; τί', english: 'why?', type: ''},
+  {chap: '17', greek: 'τίς, τί', english: 'who? what?; τί can mean why?', type: ''},
   {chap: '17', greek: 'τις, τι', english: 'someone, something; anyone, anything; certain', type: ''},
   {chap: '18', greek: 'αἴρω', english: 'I raise, lift; I carry, remove', type: 'verb'},
   {chap: '18', greek: 'ἀπαγγέλλω', english: 'I announce, report', type: 'verb'},
