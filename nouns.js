@@ -47,8 +47,11 @@ const setupTable = (selection, tableWrapper) => {
     if (selection.irregulars && selection.irregulars[counter] !== null) {
       displayText += selection.irregulars[counter];
     } else {
-      displayText += selection.stem + ' + ';
-      displayText += selection.endings[counter];
+      displayText += selection.stem;
+    }
+
+    if (selection.endings[counter] !== null) {
+      displayText += ' + ' + selection.endings[counter];
     }
     answer.textContent = displayText;
     counter += 1;
