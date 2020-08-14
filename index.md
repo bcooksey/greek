@@ -7,4 +7,5 @@ This is a site with tools for studying ancient Greek. Click a link to try one ou
 
 * [Vocab Flashcards](/greek/flashcards)
 * [Noun Declension](/greek/nouns)
+* [Pronoun Declension](/greek/pronouns)
 * [Verb Conjugation](/greek/verbs)
