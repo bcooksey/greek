@@ -1,2 +1,3 @@
 theme: jekyll-theme-tactile
 title: Greek Primer Study Tools
+exclude: [generate-data.py]
