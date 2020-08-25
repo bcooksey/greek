@@ -47,10 +47,10 @@ title: Greek Primer (3rd Edition) Participle Conjugations
     <option value="p-a-p">Present Active Participle</option>
     <option value="p-mp-p">Present Middle/Passive Participle</option>
     <option value="aorist-a-p">Aorist Active Participle</option>
-    <option value="">Aorist Middle Participle</option>
-    <option value="">Aorist Passive Participle</option>
-    <option value="">Perfect Active Participle</option>
-    <option value="">Perfiect Middle/Passive Participle</option>
+    <option value="aorist-m-p">Aorist Middle Participle</option>
+    <option value="aorist-p-p">Aorist Passive Participle</option>
+    <option value="pf-a-p">Perfect Active Participle</option>
+    <option value="pf-mp-p">Perfiect Middle/Passive Participle</option>
     <option value="chart">Chart to Construct Endings</option>
 </select>
 
