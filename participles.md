@@ -57,9 +57,10 @@ title: Greek Primer (3rd Edition) Participle Conjugations
 <button id="start">Start</button>
 <div id="conjugation-wrapper" class="active-table">
     <table>
-        <tr><th>Case</th><th class="variable-heading">Masculine</th><th class="variable-heading">Feminine</th><th class="variable-heading">Neuter</th></tr>
+        <tr><th colspan="2">Case</th><th class="variable-heading">Masculine</th><th class="variable-heading">Feminine</th><th class="variable-heading">Neuter</th></tr>
         <tr>
-          <td>Sg N</td>
+          <td rowspan="4">Sg</td>
+          <td>N</td>
           <td class="col1"><span class="answer"></span></td>
           <td class="col2"><span class="answer"></span></td>
           <td><span class="answer"></span></td>
@@ -83,7 +84,8 @@ title: Greek Primer (3rd Edition) Participle Conjugations
           <td><span class="answer"></span></td>
         </tr>
         <tr>
-          <td>Pl N</td>
+          <td rowspan="4">Pl</td>
+          <td>N</td>
           <td class="col1"><span class="answer"></span></td>
           <td class="col2"><span class="answer"></span></td>
           <td><span class="answer"></span></td>
