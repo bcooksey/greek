@@ -110,6 +110,9 @@ const resetHardCodedTable = (tableWrapper) => {
 const showNext = (tableWrapper) => {
   let nextAnswer = tableWrapper.querySelector('.col1 .hidden');
   if (!nextAnswer) {
+    nextAnswer = tableWrapper.querySelector('.col2 .hidden');
+  }
+  if (!nextAnswer) {
     nextAnswer = tableWrapper.querySelector('.hidden');
   }
   if (nextAnswer) {

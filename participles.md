@@ -57,42 +57,53 @@ title: Greek Primer (3rd Edition) Participle Conjugations
 <button id="start">Start</button>
 <div id="conjugation-wrapper" class="active-table">
     <table>
-        <tr><th></th><th colspan="3" class="variable-heading">Singular</th><th colspan="3" class="variable-heading">Plural</th></tr>
-        <tr><th>Case</th><th>M</th><th>F</th><th>N</th><th>M</th><th>F</th><th>N</th></tr>
+        <tr><th>Case</th><th class="variable-heading">Masculine</th><th class="variable-heading">Feminine</th><th class="variable-heading">Neuter</th></tr>
         <tr>
-          <td>N</td>
+          <td>Sg N</td>
           <td class="col1"><span class="answer"></span></td>
-          <td class="col1"><span class="answer"></span></td>
-          <td class="col1"><span class="answer"></span></td>
-          <td><span class="answer"></span></td>
-          <td><span class="answer"></span></td>
+          <td class="col2"><span class="answer"></span></td>
           <td><span class="answer"></span></td>
         </tr>
         <tr>
           <td>G</td>
           <td class="col1"><span class="answer"></span></td>
-          <td class="col1"><span class="answer"></span></td>
-          <td class="col1"><span class="answer"></span></td>
-          <td><span class="answer"></span></td>
-          <td><span class="answer"></span></td>
+          <td class="col2"><span class="answer"></span></td>
           <td><span class="answer"></span></td>
         </tr>
         <tr>
           <td>D</td>
           <td class="col1"><span class="answer"></span></td>
-          <td class="col1"><span class="answer"></span></td>
-          <td class="col1"><span class="answer"></span></td>
-          <td><span class="answer"></span></td>
-          <td><span class="answer"></span></td>
+          <td class="col2"><span class="answer"></span></td>
           <td><span class="answer"></span></td>
         </tr>
         <tr>
           <td>A</td>
           <td class="col1"><span class="answer"></span></td>
-          <td class="col1"><span class="answer"></span></td>
-          <td class="col1"><span class="answer"></span></td>
+          <td class="col2"><span class="answer"></span></td>
           <td><span class="answer"></span></td>
+        </tr>
+        <tr>
+          <td>Pl N</td>
+          <td class="col1"><span class="answer"></span></td>
+          <td class="col2"><span class="answer"></span></td>
           <td><span class="answer"></span></td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td class="col1"><span class="answer"></span></td>
+          <td class="col2"><span class="answer"></span></td>
+          <td><span class="answer"></span></td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td class="col1"><span class="answer"></span></td>
+          <td class="col2"><span class="answer"></span></td>
+          <td><span class="answer"></span></td>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td class="col1"><span class="answer"></span></td>
+          <td class="col2"><span class="answer"></span></td>
           <td><span class="answer"></span></td>
         </tr>
     </table>
