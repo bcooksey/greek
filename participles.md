@@ -87,28 +87,12 @@ title: Greek Primer (3rd Edition) Participle Conjugations
 </div>
 <div id="chart-wrapper" class="hidden centered-text">
     <table>
-      <tr><th>Paradigm</th><th>Endings</th></tr>
-      <tr><td>Present Active Mas</td><td><span class="answer">ων, οντ + 3rd Declension</span></td></tr>
-      <tr><td>Present Active Fem</td><td><span class="answer">ουσ + 1st Declension Mixed</span></td></tr>
-      <tr><td>Present Active Neut</td><td><span class="answer">ον, οντ + 3rd Declension</span></td></tr>
-      <tr><td>Present Middle/Passive Mas</td><td><span class="answer">ομεν + 2nd Declension</span></td></tr>
-      <tr><td>Present Middle/Passive Fem</td><td><span class="answer">ομεν + 1st Declension Eta</span></td></tr>
-      <tr><td>Present Middle/Passive Neut</td><td><span class="answer">ομεν + 2nd Declension</span></td></tr>
-      <tr><td>Aorist Act Mas</td><td><span class="answer">σας, σαντ + 3rd Declension</span></td></tr>
-      <tr><td>Aorist Act Fem</td><td><span class="answer">σασ + 1st Declension Mixed</span></td></tr>
-      <tr><td>Aorist Act Neut</td><td><span class="answer">σαν, σαντ + 3rd Declension</span></td></tr>
-      <tr><td>Aorist Middle Mas</td><td><span class="answer">σαμεν + 2nd Declension</span></td></tr>
-      <tr><td>Aorist Middle Fem</td><td><span class="answer">σαμεν + 1st Declension Eta</span></td></tr>
-      <tr><td>Aorist Middle Neut</td><td><span class="answer">σαμεν + 2nd Declension</span></td></tr>
-      <tr><td>Aorist Passive Mas</td><td><span class="answer">θεις, θεντ + 3rd Declension</span></td></tr>
-      <tr><td>Aorist Passive Fem</td><td><span class="answer">θεις + 1st Declension Mixed</span></td></tr>
-      <tr><td>Aorist Passive Neut</td><td><span class="answer">θεν, θεντ + 3rd Declension</span></td></tr>
-      <tr><td>Perfect Active Mas</td><td><span class="answer">κως, κοτ + 3rd Declension</span></td></tr>
-      <tr><td>Perfect Active Fem</td><td><span class="answer">κυι + 1st Declension Alpha</span></td></tr>
-      <tr><td>Perfect Active Neut</td><td><span class="answer">κον, κοτ + 3rd Declension</span></td></tr>
-      <tr><td>Perfect Middle/Passive Mas</td><td><span class="answer">μεν + 2nd Declension</span></td></tr>
-      <tr><td>Perfect Middle/Passive Fem</td><td><span class="answer">μεν + 1st Declension Eta</span></td></tr>
-      <tr><td>Perfect Middle/Passive Neut</td><td><span class="answer">μεν + 2nd Declension</span></td></tr>
+      <tr><th>Paradigm</th><th colspan="3">Ending Constructions</th></tr>
+      <tr><th></th><th>Masculine</th><th>Feminine</th><th>Neuter</th></tr>
+      <tr><td>Present Active</td><td><span class="answer">ων, οντ + 3rd</span></td><td><span class="answer">ουσ + 1st mixed</span></td><td><span class="answer">ον, οντ + 3rd</span></td></tr>
+      <tr><td>Present Middle/Passive</td><td colspan="3"><span class="answer">ομεν + 2nd-1st Eta-2nd</span></td></tr>
+      <tr><td>Aorist Active</td><td><span class="answer">σας, σαντ + 3rd</span></td><td><span>σασ + 1st mixed</span></td><td><span>σαν, σαντ + 3rd</span></td></tr>
+      <tr><td>Aorist Middle</td><td colspan="3"><span class="answer">σαμεν + 2nd-1st Eta-2nd</span></td></tr>
     </table>
 </div>
 <div class="controls">
