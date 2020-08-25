@@ -20,10 +20,10 @@ const CONJUGATIONS = {
     'first-aorist-d-i': {stem: 'πορεύ', endings: ['αμην', 'αμεθα', 'ω', 'ασθε', 'ατο', 'αντο'], prefix: 'ἐ', suffix: 'σ'},
     'second-aorist-d-i': {stem: 'ἐγεν', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: '', suffix: ''},
     'pf-d-i': {stem: 'πορεύ', endings: ['μαι', 'μεθα', 'σαι', 'σθε', 'ται', 'νται'], prefix: '', suffix: ''},
-
-    // 'eimi-pai': {stem: 'εἰμι', endings: ['', '', '', '', '', ''], prefix: '', suffix: ''},
-    // 'eimi-iai': {stem: '', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: '', suffix: ''},
-    // 'eimi-fdi': {stem: '', endings: ['ομην', 'ομεθα', 'ου', 'εσθε', 'ετο', 'οντο'], prefix: '', suffix: ''},
+    // Eimi
+    'eimi-pai': {stem: '', irregulars: ['εἰμί', 'ἐσμεν', 'εἰ', 'ἐστε', 'ἐστιν', 'εἰσι(ν)', '', ''], prefix: '', suffix: ''},
+    'eimi-iai': {stem: '', irregulars: ['ἠμην', 'ἠμεν/ἠμεθα', 'ἠς/ἠσθα', 'ἠτε', 'ἠν', 'ἠσαν'], prefix: '', suffix: ''},
+    'eimi-fdi': {stem: 'ἐσ', endings: ['ομαι', 'ομεθα', 'ῃ', 'εσθε', 'εται', 'ονται'], prefix: '', suffix: ''},
 };
 
 const setupTable = (selection, tableWrapper) => {
@@ -34,11 +34,20 @@ const setupTable = (selection, tableWrapper) => {
     if (selection.prefix) {
       displayText += selection.prefix + ' + ';
     }
-    displayText += selection.stem + ' + ';
-    if (selection.suffix) {
-      displayText += selection.suffix + ' + ';
+
+    if (selection.irregulars && selection.irregulars[counter] !== null){
+      displayText += selection.irregulars[counter];
+    } else {
+      displayText += selection.stem;
     }
-    displayText += selection.endings[counter]; 
+
+    if (selection.suffix) {
+      displayText += ' + ' + selection.suffix;
+    }
+    
+    if (selection.endings && selection.endings[counter] !== null) {
+      displayText += ' + ' + selection.endings[counter]; 
+    }
 
     answer.textContent = displayText;
     counter += 1;

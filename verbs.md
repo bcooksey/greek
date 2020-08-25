@@ -70,6 +70,9 @@ title: Greek Primer (3rd Edition) Verb Conjugation
         <option value="pf-d-i">Perfect Deponent Indicative</option>
     </optgroup>
     <optgroup label="Other">
+        <option value="eimi-pai">εἰμί Present Active Indicative</option>
+        <option value="eimi-iai">εἰμί Imperfect Active Indicative</option>
+        <option value="eimi-fdi">εἰμί Future Active Indicative</option>
         <option value="prefix-conflation">Prefix Conflation Rules</option>
         <option value="suffix-conflation">Suffix Conflation Rules</option>
         <option value="contraction">Contraction Rules</option>
