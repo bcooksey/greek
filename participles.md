@@ -45,8 +45,8 @@ title: Greek Primer (3rd Edition) Participle Conjugations
 <label>Paradigm</label>
 <select id="typeSelect">
     <option value="p-a-p">Present Active Participle</option>
-    <option value="">Present Middle/Passive Participle</option>
-    <option value="">Aorist Active Participle</option>
+    <option value="p-mp-p">Present Middle/Passive Participle</option>
+    <option value="aorist-a-p">Aorist Active Participle</option>
     <option value="">Aorist Middle Participle</option>
     <option value="">Aorist Passive Participle</option>
     <option value="">Perfect Active Participle</option>
@@ -55,9 +55,9 @@ title: Greek Primer (3rd Edition) Participle Conjugations
 </select>
 
 <button id="start">Start</button>
-<div id="wrapper" class="active-table">
+<div id="conjugation-wrapper" class="active-table">
     <table>
-        <tr><th></th><th rowspan="3" class="variable-heading">Singular</th><th rowspan="3" class="variable-heading">Plural</th></tr>
+        <tr><th></th><th colspan="3" class="variable-heading">Singular</th><th colspan="3" class="variable-heading">Plural</th></tr>
         <tr><th>Case</th><th>M</th><th>F</th><th>N</th><th>M</th><th>F</th><th>N</th></tr>
         <tr>
           <td>N</td>
