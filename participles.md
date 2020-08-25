@@ -50,7 +50,7 @@ title: Greek Primer (3rd Edition) Participle Conjugations
     <option value="aorist-m-p">Aorist Middle Participle</option>
     <option value="aorist-p-p">Aorist Passive Participle</option>
     <option value="pf-a-p">Perfect Active Participle</option>
-    <option value="pf-mp-p">Perfiect Middle/Passive Participle</option>
+    <option value="pf-mp-p">Perfect Middle/Passive Participle</option>
     <option value="chart">Chart to Construct Endings</option>
 </select>
 
@@ -62,25 +62,37 @@ title: Greek Primer (3rd Edition) Participle Conjugations
         <tr>
           <td>N</td>
           <td class="col1"><span class="answer"></span></td>
-          <td class="col2"><span class="answer"></span></td>
+          <td class="col1"><span class="answer"></span></td>
+          <td class="col1"><span class="answer"></span></td>
+          <td><span class="answer"></span></td>
+          <td><span class="answer"></span></td>
           <td><span class="answer"></span></td>
         </tr>
         <tr>
           <td>G</td>
           <td class="col1"><span class="answer"></span></td>
-          <td class="col2"><span class="answer"></span></td>
+          <td class="col1"><span class="answer"></span></td>
+          <td class="col1"><span class="answer"></span></td>
+          <td><span class="answer"></span></td>
+          <td><span class="answer"></span></td>
           <td><span class="answer"></span></td>
         </tr>
         <tr>
           <td>D</td>
           <td class="col1"><span class="answer"></span></td>
-          <td class="col2"><span class="answer"></span></td>
+          <td class="col1"><span class="answer"></span></td>
+          <td class="col1"><span class="answer"></span></td>
+          <td><span class="answer"></span></td>
+          <td><span class="answer"></span></td>
           <td><span class="answer"></span></td>
         </tr>
         <tr>
           <td>A</td>
           <td class="col1"><span class="answer"></span></td>
-          <td class="col2"><span class="answer"></span></td>
+          <td class="col1"><span class="answer"></span></td>
+          <td class="col1"><span class="answer"></span></td>
+          <td><span class="answer"></span></td>
+          <td><span class="answer"></span></td>
           <td><span class="answer"></span></td>
         </tr>
     </table>

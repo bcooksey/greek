@@ -96,17 +96,7 @@ const setupTable = (selection, tableWrapper) => {
   let counter = 0;
   tableWrapper.querySelectorAll('.answer').forEach((answer) => {
     answer.classList.add('hidden');
-    let displayText = '';
-    if (selection.prefix) {
-      displayText += selection.prefix + ' + ';
-    }
-    displayText += selection.stem + ' + ';
-    if (selection.suffix) {
-      displayText += selection.suffix + ' + ';
-    }
-    displayText += selection.endings[counter]; 
-
-    answer.textContent = displayText;
+    answer.textContent = selection.answers[counter]; 
     counter += 1;
   });
 };
@@ -119,9 +109,6 @@ const resetHardCodedTable = (tableWrapper) => {
 
 const showNext = (tableWrapper) => {
   let nextAnswer = tableWrapper.querySelector('.col1 .hidden');
-  if (!nextAnswer) {
-    nextAnswer = tableWrapper.querySelector('.col2 .hidden');
-  }
   if (!nextAnswer) {
     nextAnswer = tableWrapper.querySelector('.hidden');
   }
