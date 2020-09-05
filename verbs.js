@@ -13,18 +13,18 @@ const CONJUGATIONS = {
     'aorist-m-i': {stem: 'λυ', endings: ['αμην', 'αμεθα', 'ω', 'ασθε', 'ατο', 'αντο'], prefix: 'ἐ', suffix: 'σ'},
     'aorist-p-i': {stem: 'λυ', endings: ['ην', 'ημεν', 'ης', 'ητε', 'η', 'ησαν'], prefix: 'ἐ', suffix: 'θ'},
     'pf-mp-i': {stem: 'λελυ', endings: ['μαι', 'μεθα', 'σαι', 'σθε', 'ται', 'νται'], prefix: '', suffix: ''},
-
+    // Subjunctive
     'p-a-s': {stem: 'λυ', endings: ['ω', 'ωμεν', 'ῃς', 'ητε', 'ῃ', 'ωσι(ν)'], prefix: '', suffix: ''},
     'p-mp-s': {stem: 'λυ', endings: ['ωμαι', 'ωμεθα', 'ῃ', 'ησθε', 'ηται', 'ωνται'], prefix: '', suffix: ''},
     'a-a-s': {stem: 'λυ', endings: ['σω', 'σωμεν', 'σῃς', 'σητε', 'σῃ', 'σωσι(ν)'], prefix: '', suffix: ''},
     'a-m-s': {stem: 'λυ', endings: ['σωμαι', 'σωμεθα', 'σῃ', 'σησθε', 'σηται', 'σωνται'], prefix: '', suffix: ''},
     'a-p-s': {stem: 'λυ', endings: ['θω', 'θωμεν', 'θῃς', 'θητε', 'θῃ', 'θωσι(ν)'], prefix: '', suffix: ''},
-
-    'p-a-impv': {stem: 'λυ', endings: ['', '', 'ε', 'ετε', 'ετω', 'ετωσαν'], irregulars: ['-', '-', '', '', '', ''], prefix: '', suffix: ''},
-    'p-mp-impv': {stem: 'λυ', endings: ['', '', 'ου', 'εσθε', 'εσθω', 'εσθωσαν'], irregulars: ['-', '-', '', '', '', ''], prefix: '', suffix: ''},
-    'a-a-impv': {stem: 'λυ', endings: ['', '', 'σον', 'σατε', 'σατω', 'σατωσαν'], irregulars: ['-', '-', '', '', '', ''], prefix: '', suffix: ''},
-    'a-m-impv': {stem: 'λυ', endings: ['', '', 'σαι', 'σασθε', 'σασθω', 'σασθωσαν'], irregulars: ['-', '-', '', '', '', ''], prefix: '', suffix: ''},
-    'a-p-impv': {stem: 'λυ', endings: ['', '', 'θητι', 'θητε', 'θητω', 'θητωσαν'], irregulars: ['-', '-', '', '', '', ''], prefix: '', suffix: ''},
+    // Imperative
+    'p-a-impv': {stem: 'λυ', endings: ['', '', 'ε', 'ετε', 'ετω', 'ετωσαν'], irregulars: ['-', '-', null, null, null], prefix: '', suffix: ''},
+    'p-mp-impv': {stem: 'λυ', endings: ['', '', 'ου', 'εσθε', 'εσθω', 'εσθωσαν'], irregulars: ['-', '-', null, null, null], prefix: '', suffix: ''},
+    'a-a-impv': {stem: 'λυ', endings: ['', '', 'σον', 'σατε', 'σατω', 'σατωσαν'], irregulars: ['-', '-', null, null, null], prefix: '', suffix: ''},
+    'a-m-impv': {stem: 'λυ', endings: ['', '', 'σαι', 'σασθε', 'σασθω', 'σασθωσαν'], irregulars: ['-', '-', null, null, null], prefix: '', suffix: ''},
+    'a-p-impv': {stem: 'λυ', endings: ['', '', 'θητι', 'θητε', 'θητω', 'θητωσαν'], irregulars: ['-', '-', null, null, null], prefix: '', suffix: ''},
 
     // Deponent
     'p-d-i': {stem: 'πορεύ', endings: ['ομαι', 'ομεθα', 'ῃ', 'εσθε', 'εται', 'ονται'], prefix: '', suffix: ''},

@@ -59,6 +59,14 @@ title: Greek Primer (3rd Edition) Verb Conjugation
         <option value="pf-a-i">Indicative - Perfect Active</option>
         <option value="pf-mp-i">Indicative - Perfect Middle/Passive</option>
     </optgroup>
+    <optgroup label="Deponent">
+        <option value="p-d-i">Indicative - Present Deponent</option>
+        <option value="i-d-i">Indicative - Imperfect Deponent</option>
+        <option value="f-d-i">Indicative - Future Deponent</option>
+        <option value="first-aorist-d-i">Indicative - 1st Aorist Deponent</option>
+        <option value="second-aorist-d-i">Indicative - 2nd Aorist Deponent</option>
+        <option value="pf-d-i">Indicative - Perfect Deponent</option>
+    </optgroup>
     <optgroup label="Subjunctive">
         <option value="p-a-s">Subjunctive - Present Active</option>
         <option value="p-mp-s">Subjunctive - Present Middle/Passive</option>
@@ -72,14 +80,6 @@ title: Greek Primer (3rd Edition) Verb Conjugation
         <option value="a-a-impv">Imperative - Aorist Active</option>
         <option value="a-m-impv">Imperative - Aorist Middle</option>
         <option value="a-p-impv">Imperative - Aorist Passive</option>
-    </optgroup>
-    <optgroup label="Deponent">
-        <option value="p-d-i">Indicative - Present Deponent</option>
-        <option value="i-d-i">Indicative - Imperfect Deponent</option>
-        <option value="f-d-i">Indicative - Future Deponent</option>
-        <option value="first-aorist-d-i">Indicative - 1st Aorist Deponent</option>
-        <option value="second-aorist-d-i">Indicative - 2nd Aorist Deponent</option>
-        <option value="pf-d-i">Indicative - Perfect Deponent</option>
     </optgroup>
     <optgroup label="Other">
         <option value="eimi-pai">εἰμί Present Active Indicative</option>
