@@ -44,30 +44,42 @@ title: Greek Primer (3rd Edition) Verb Conjugation
 
 <label>Paradigm</label>
 <select id="typeSelect">
-    <optgroup label="Active">
-        <option value="p-a-i">Present Active Indicative</option>
-        <option value="i-a-i">Imperfect Active Indicative</option>
-        <option value="f-a-i">Future Active Indicative</option>
-        <option value="first-aorist-a-i">1st Aorist Active Indicative</option>
-        <option value="second-aorist-a-i">2nd Aorist Active Indicative</option>
-        <option value="pf-a-i">Perfect Active indicative</option>
+    <optgroup label="Indicative">
+        <option value="p-a-i">Indicative - Present Active</option>
+        <option value="p-mp-i">Indicative - Present Middle/Passive</option>
+        <option value="i-a-i">Indicative - Imperfect Active</option>
+        <option value="i-mp-i">Indicative - Imperfect Middle/Passive</option>
+        <option value="f-a-i">Indicative - Future Active</option>
+        <option value="f-m-i">Indicative - Future Middle</option>
+        <option value="f-p-i">Indicative - Future Passive</option>
+        <option value="first-aorist-a-i">Indicative - 1st Aorist Active</option>
+        <option value="second-aorist-a-i">Indicative - 2nd Aorist Active</option>
+        <option value="aorist-m-i">Indicative - Aorist Middle</option>
+        <option value="aorist-p-i">Indicative - Aorist Passive</option>
+        <option value="pf-a-i">Indicative - Perfect Active</option>
+        <option value="pf-mp-i">Indicative - Perfect Middle/Passive</option>
     </optgroup>
-    <optgroup label="Middle and Passive">
-        <option value="p-mp-i">Present Middle/Passive Indicative</option>
-        <option value="i-mp-i">Imperfect Middle/Passive Indicative</option>
-        <option value="f-m-i">Future Middle Indicative</option>
-        <option value="f-p-i">Future Passive Indicative</option>
-        <option value="aorist-m-i">Aorist Middle Indicative</option>
-        <option value="aorist-p-i">Aorist Passive Indicative</option>
-        <option value="pf-mp-i">Perfect Middle/Passive Indicative</option>
+    <optgroup label="Subjunctive">
+        <option value="p-a-s">Subjunctive - Present Active</option>
+        <option value="p-mp-s">Subjunctive - Present Middle/Passive</option>
+        <option value="a-a-s">Subjunctive - Aorist Active</option>
+        <option value="a-m-s">Subjunctive - Aorist Middle</option>
+        <option value="a-p-s">Subjunctive - Aorist Passive</option>
+    </optgroup>
+    <optgroup label="Imperative">
+        <option value="p-a-impv">Imperative - Present Active</option>
+        <option value="p-mp-impv">Imperative - Present Middle/Passive</option>
+        <option value="a-a-impv">Imperative - Aorist Active</option>
+        <option value="a-m-impv">Imperative - Aorist Middle</option>
+        <option value="a-p-impv">Imperative - Aorist Passive</option>
     </optgroup>
     <optgroup label="Deponent">
-        <option value="p-d-i">Present Deponent Indicative</option>
-        <option value="i-d-i">Imperfect Deponent Indicative</option>
-        <option value="f-d-i">Future Deponent Indicative</option>
-        <option value="first-aorist-d-i">1st Aorist Deponent Indicative</option>
-        <option value="second-aorist-d-i">2nd Aorist Deponent Indicative</option>
-        <option value="pf-d-i">Perfect Deponent Indicative</option>
+        <option value="p-d-i">Indicative - Present Deponent</option>
+        <option value="i-d-i">Indicative - Imperfect Deponent</option>
+        <option value="f-d-i">Indicative - Future Deponent</option>
+        <option value="first-aorist-d-i">Indicative - 1st Aorist Deponent</option>
+        <option value="second-aorist-d-i">Indicative - 2nd Aorist Deponent</option>
+        <option value="pf-d-i">Indicative - Perfect Deponent</option>
     </optgroup>
     <optgroup label="Other">
         <option value="eimi-pai">εἰμί Present Active Indicative</option>
